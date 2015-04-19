@@ -10,6 +10,7 @@ var index = require('./routes/index');
 var connection  = require('express-myconnection'); 
 var mysql = require('mysql');
 var app = express();
+var cors = require('cors');
 
 // This is where all the magic happens!
 app.engine('html', swig.renderFile);
@@ -29,6 +30,7 @@ swig.setDefaults({ cache: false });
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
+app.use(cors());
 app.set('jwtTokenSecret', 'vibevendasehfodapracrlaee');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

@@ -29,6 +29,9 @@ E rode o projeto:
 node bin/www
 ```
 
+Acesse a url:
+[localhost:3000](http://localhost:3000)
+
 As rotas são essas:
 ```
 GET /lembretes -> todos os lembretes

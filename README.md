@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # post-nodejs-mysql
 
 
@@ -41,3 +42,8 @@ GET /lembrete/:id -> retorna o perfil do lembrete através do id
 PUT /lembrete/:id -> atualiza o lembrete através do id
 DELETE /lembrete/:id -> exclui o lembrete através do id
 ```
+=======
+The OpenShift `nodejs` cartridge documentation can be found at:
+
+http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
+>>>>>>> a651439709d56cd6a27fff27a0bc24a911b6658d

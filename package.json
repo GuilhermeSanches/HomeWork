@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "api",
   "version": "0.0.0",
   "private": true,
@@ -19,4 +20,39 @@
     "serve-favicon": "~2.1.3",
     "swig": "^1.4.2"
   }
+=======
+  "name": "OpenShift-Sample-App",
+  "version": "1.0.0",
+  "description": "OpenShift Sample Application",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "OpenShift",
+    "email": "ramr@example.org",
+    "url": "http://www.openshift.com/"
+  },
+  "homepage": "http://www.openshift.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openshift/origin-server"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "~3.4.4"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+>>>>>>> a651439709d56cd6a27fff27a0bc24a911b6658d
 }
